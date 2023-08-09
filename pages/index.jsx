@@ -41,6 +41,10 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <hr />
+        <div>
+          <Link href={"/sample"}>Sample page</Link>
+        </div>
       </section>
     </Layout>
   );
