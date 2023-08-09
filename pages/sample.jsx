@@ -1,3 +1,9 @@
+import Layout from "../components/layout";
+
 export default function Sample() {
-  return <h1>Hi!!!</h1>;
+  return (
+    <Layout>
+      <h1>Hi!</h1>
+    </Layout>
+  );
 }
